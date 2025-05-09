@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Data Analyst Portfolio </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+	</head>
+
+	<script>
+		const counters = document.querySelectorAll('.counter');
+	  
+		counters.forEach(counter => {
+		  const updateCount = () => {
+			const target = +counter.getAttribute('data-target');
+			const count = +counter.innerText;
+	  
+			const increment = target / 200;
+	  
+			if (count < target) {
+			  counter.innerText = Math.ceil(count + increment);
+			  setTimeout(updateCount, 10);
+			} else {
+			  counter.innerText = target;
+			}
+		  };
+	  
+		  updateCount();
+		});
+	  </script>
+	  
+
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">Data Analyst Portfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="aboutme.html">About me</a></li>
+							<li><a href="experience.html">Experience</a></li>
+							<li><a href="project.html">Project</a></li>
+							<li><a href="#footer">Contact</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><span class="bi bi-infinity icon" style="color:#ffed84;"></span></div>
+							<h2>Hi, I'm Mai Vo Quynh Nhu</h2>
+							
+							<h3 style="font-weight: normal;" ><strong> Business Intelligence and Data Analyst </strong> who can turn complexity into clarity! </h3>
+								
+								
+								<div class="portfolio-section">
+									<div class="info-card">
+									  <i class="bi bi-graph-up-arrow icon"></i>
+									  <div class="number">10+</div>
+									  <div class="label">Projects Analyzed</div>
+									</div>
+
+									<div class="info-card">
+										<i class="bi bi-bookmark-check icon"></i>
+										  <div class="number">8+</div>
+										  <div class="label"> DA Certificates</div>
+										</div>
+										
+									<div class="info-card">
+										<i class="bi bi-briefcase icon"></i>
+										<div class="number">1+</div>
+										<div class="label">Years Experience</div>
+									  </div>
+									
+								  </div>
+								  
+								  <section class="tools-section">
+									<h2 class="major not-uppercase" style="font-size: 30px"> Tools </h3>
+									  <p style="text-transform: none; font-weight: normal;">My keys to unlock the power of your data</p>
+									  <div class="tools-grid">
+										<div class="tool-card">
+										  <span class="bi bi-bounding-box-circles tool-icon"></span>
+										  <p style="text-transform: none; font-weight: normal;">Excel</p>
+										</div>
+										<div class="tool-card">
+										  <span class="bi bi-filetype-sql tool-icon"></span>
+										  <p style="text-transform: none; font-weight: normal;">SQL</p>
+										</div>
+										<div class="tool-card">
+										  <span class="bi bi-calendar4-week tool-icon"></span>
+										  <p style="text-transform: none; font-weight: normal;">Power BI</p>
+										</div>
+										<div class="tool-card">
+										  <span class="bi bi-activity tool-icon"></span>
+										  <p style="text-transform: none; font-weight: normal;">Python</p>
+										</div>
+									  </div>
+									
+								  </section>
+
+								  <h4 class="major"> </h4>
+								  <div style="height: 20px;"></div>	  
+						
+						<a href="#wrapper" class="special" style="font-size: 15px">Let's explore!</a>
+							</div>
+					</section>
+
+				
+					  
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Who am I?</h2>
+										<p>From a childhood love of math to a lifelong passion for art, I found myself at the intersection of logic and creativity. Becoming a Data Analyst wasn't just a career choice, but a journey to listen to what the numbers are quietly telling us – and retell them with clarity, intuition, and meaning.</p>
+										<a href="aboutme.html" class="special">I want to know more!</a>
+										<a href="experience.html" class="special">Nah! Let's talk about Experience</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Experience</h2>
+										<p> From studying Data Analytics at UNIGAP to gaining real-world experience as a Data Analyst Intern—complemented by sharp insights from roles in Market Research and Sales—each step has shaped a unique perspective I bring to data. Wondering how it all fits into your puzzle? Let’s connect and explore how my diverse background can power your data needs. Curious?  </p>
+										<a href="experience.html" class="special">Okay! Let's show them!</a>
+										<a href="project.html" class="special">Take me to the Projects!</a>
+									</div>
+								</div>
+							</section>
+					</section>
+				
+
+						<!-- Four -->
+							<section id="four" class="wrapper alt style1">
+								<div class="inner">
+									<h2 class="major">Projects</h2>
+									<p>Every dataset tells a story. Let's dive into mine and explore how I bring data to life!</p>
+									<section class="features">
+										<article>
+											<a href="projectorderperformance.html" class="image"><img src="images/orderperformance.jpg" alt="" /></a>
+											<h3 class="major">Order Performance Dashboard</h3>
+											<h4>Order Performance of Fashion Retail || SQL + Excel + Power BI</h4>
+												<p></p>
+												<a href="projectorderperformance.html" class="special">Let's go</a>
+										</article>
+										<article>
+											<a href="projecttaobao.html" class="image"><img src="images/taobao.jpg" alt=""  /></a>
+											<h3 class="major">Web Scraping on E-com </E-com></h3>
+											<h4>Collect data for product research on taobao || Python </h4>
+									<p></p>
+											<a href="projecttaobao.html" class="special">Let's go</a>
+										</article>
+										<article>
+											<a href="projectdannydinner.html" class="image"><img src="images/danny.jpg" alt="" /></a>
+											<h3 class="major"> insights from restaurant's operations | SQL</h3>
+											<h4>Danny’s Diner: Drowning in Sushi... and Data! </h4>
+									<p></p>
+											<a href="projectdannydinner.html" class="special">Let's go</a>
+										</article>
+										
+										<article>
+											<a href="projectcoffee.html" class="image"><img src="images/coffee project.jpg" alt="" /></a>
+											<h3 class="major">Sales Performance Dashboard | MS Excel</h3>
+											<h4>Build dashboard to come up with marketing strategies || Excel - Pivot table - Chart</Table></h4>
+												<p></p>
+											<a href="projectcoffee.html" class="special">Let's go</a>
+										</article>
+										<article>
+											<a href="https://drive.google.com/file/d/1S3sVFjHRFeUvtXPy3IV5KIye6heW5iMD/view" class="image"><img src="images/Inventory.png" alt="" /></a>
+											<h3 class="major">Inventory Controlling Dashboard</h3>
+											<h4> Not Just Bikes – A Dashboard That Rides the Supply Chain || SQL + POWER BI  </h4>
+												<p></p>
+												<a href="https://drive.google.com/file/d/1S3sVFjHRFeUvtXPy3IV5KIye6heW5iMD/view" class="special">Let's go</a>
+										</article>
+										
+										<article>
+											<a href="https://github.com/mvqnhu/RFM-Analysis" class="image"><img src="images/RFM.jpg" alt="" /></a>
+											<h3 class="major">RFM (Recency – Frequency – Monetary) Analysis</h3>
+											<h4> Turn your Customer Behaviors into Business Gold! || Python  </h4>
+												<p></p>
+												<a href="https://github.com/mvqnhu/RFM-Analysis" class="special">go to my github!!</a>
+										</article>
+										
+									</section>
+										<h2 class="major">other Projects</h2>
+									
+									<section class="features">
+									
+										
+										<article>
+											<a href="https://github.com/mvqnhu/Data-Exploration?tab=readme-ov-file" class="image"><img src="images/dataexploration.png" alt="" /></a>
+											<h3 class="major">Data Exploration - Digging for Gold in BigQuery </h3>
+											<h4> Zoom In, Zoom Out – Exploring Business Ops from Week to Year! || SQL </h4>
+												<p></p>
+												<a href="https://github.com/mvqnhu/Data-Exploration?tab=readme-ov-file" class="special">go to my github!!</a>
+										</article>
+
+										<article>
+											<a href="https://www.kaggle.com/code/mvqnhu/fraud-project-machinelearning" class="image"><img src="images/Fraudmodel.png" alt="" /></a>
+											<h3 class="major">Fraud transaction Model</h3>
+											<h4> Fraudsters may be sneaky, but luckily… so is my Python model || Python  </h4>
+												<p></p>
+												<a href="https://www.kaggle.com/code/mvqnhu/fraud-project-machinelearning" class="special">go to my kaggle!!</a>
+										</article>
+									</section>			
+							
+								</section>
+
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Get in touch</h2>
+							<p>Let's chat! Your data, my brain - together we can be unstoppable.</p>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="icon solid fa-home">
+									Ho Chi Minh City, Viet Nam<br />
+									
+								</li>
+								<li class="icon solid fa-phone">(84) 33901-5606</li>
+								<li class="icon solid fa-envelope"><p href="#">maivoquynhnhu@gmail.com</a></li>
+								<li class="icon brands fa-github"><a href="https://github.com/mvqnhu">mvqnhu</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/mai-vo-quynh-nhu">Mai Vo Quynh Nhu</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
